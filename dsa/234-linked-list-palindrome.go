@@ -22,6 +22,7 @@ func IsPalindromeLinkedList(head *ListNode) bool {
 	}
 
 	left, right := 0, len(values)-1
+	//that is the secret
 	for left < right {
 		if values[left] != values[right] {
 			return false
