@@ -14,4 +14,8 @@ func main() {
 			fmt.Printf("%s is not a palindrome\n", test)
 		}
 	}
+
+	//Palindrome
+	head1 := &dsa.ListNode{Val: 1, Next: &dsa.ListNode{Val: 2, Next: &dsa.ListNode{Val: 2, Next: &dsa.ListNode{Val: 1}}}}
+	fmt.Println("Example 1:", dsa.IsPalindromeLinkedList(head1)) // Outpu
 }
