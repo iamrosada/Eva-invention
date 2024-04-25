@@ -17,5 +17,10 @@ func main() {
 
 	//Palindrome
 	head1 := &dsa.ListNode{Val: 1, Next: &dsa.ListNode{Val: 2, Next: &dsa.ListNode{Val: 2, Next: &dsa.ListNode{Val: 1}}}}
-	fmt.Println("Example 1:", dsa.IsPalindromeLinkedList(head1)) // Outpu
+	fmt.Println("Example 1:", dsa.IsPalindromeLinkedList(head1)) // Output
+
+	//680
+	fmt.Println(dsa.ValidPalindrome("aba"))  // Output: true
+	fmt.Println(dsa.ValidPalindrome("abca")) // Output: true
+	fmt.Println(dsa.ValidPalindrome("abc"))  // Output: false
 }
