@@ -19,4 +19,20 @@ func main() {
 
 	}
 
+	fmt.Println()
+
+	i := 10
+
+	for {
+		if i < 0 {
+
+			break
+		}
+
+		fmt.Print(i, " ")
+		i--
+	}
+
+	fmt.Println()
+
 }
